@@ -1,0 +1,13 @@
+query {
+  client(id: $id) {
+    name
+    documents {
+      id
+      number
+    }
+    relatives {
+      id
+      relationType
+    }
+  }
+}
